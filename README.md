@@ -1,5 +1,7 @@
 # Brew formula for BlakeWilliams/remote-development-manager
 
+This is a WIP, mostly for personal use but if it you find it useful let me know and I'll try to improve it ;)
+
 ## How do I install these formulae?
 
 `brew install franciscoj/remote-development-manager/remote-development-manager`
