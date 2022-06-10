@@ -26,4 +26,9 @@ class RemoteDevelopmentManager < Formula
     # executables being tested: `system "#{bin}/program", "do", "something"`.
     assert_match "A server and client for better remote development integration.", shell_output("#{bin}/rdm --help")
   end
+
+  service do
+    run [opt_bin/"rdm", "server"]
+    launch_only_once true
+  end
 end
