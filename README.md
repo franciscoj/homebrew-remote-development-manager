@@ -1,10 +1,10 @@
-# Franciscoj Remote-development-manager
+# Brew formula for BlakeWilliams/remote-development-manager
 
 ## How do I install these formulae?
 
-`brew install franciscoj/remote-development-manager/<formula>`
+`brew install franciscoj/remote-development-manager/remote-development-manager`
 
-Or `brew tap franciscoj/remote-development-manager` and then `brew install <formula>`.
+Or `brew tap franciscoj/remote-development-manager` and then `brew install remote-development-manager`.
 
 ## Documentation
 
