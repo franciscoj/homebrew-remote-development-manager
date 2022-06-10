@@ -24,7 +24,7 @@ class RemoteDevelopmentManager < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    assert_match "A server and client for better remote development integration.", shell_output("#{bin}/rdm --help")
+    system false
   end
 
   service do
